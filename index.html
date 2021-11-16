@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizz JS</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <h1> Quizz Culture générale</h1>
+
+    <div class="container-global">
+        <form  class="form-quizz">
+            <div class="question-block">
+                <h4> Quelle est la capitale de l'Etat de Californie aux Etats-Unis? </h4>
+                
+                <div>
+                    <input type="radio" id="Montgomery" name="q1" value="a"checked>
+                    <label for="Montgomery">Montgomery</label>
+                </div>
+                
+                <div>
+                    <input type="radio" id="Sacramento" name="q1" value="b">
+                    <label for="Sacramento">Sacramento</label>
+                </div>
+                
+                <div>
+                    <input type="radio" id="Columbus" name="q1" value="c">
+                    <label for="Columbus">Columbus</label>
+                </div>
+            </div>
+    
+            <div class="question-block">
+                <h4>En quelle année est mort Albert Einstein ?</h4>
+                <div>
+                    <input type="radio" id="date1" name="q2" value="a" checked>
+                    <label for="date1">1855</label>
+                </div>
+                
+                <div>
+                    <input type="radio" id="date2" name="q2" value="b">
+                    <label for="date2">1946</label>
+                </div>
+                
+                <div>
+                    <input type="radio" id="date3" name="q2" value="c">
+                    <label for="date3"> 1955</label>
+                </div>
+            </div>
+    
+            <div class="question-block">
+                <h4>Quelle est la bonne orthographe de ce mot...?</h4>
+                <div>
+                    <input type="radio" id="Presbitie" name="q3" value="a" checked>
+                    <label for="Presbitie">Presbitie</label>
+                </div>
+                
+                <div>
+                    <input type="radio" id="Presbytie" name="q3" value="b">
+                    <label for="Presbytie">Presbytie</label>
+                </div>
+                
+                <div>
+                    <input type="radio" id="Presbycie" name="q3" value="c">
+                    <label for="Presbycie">Presbycie</label>
+                </div>
+            </div>
+    
+    
+            <div class="question-block">
+                <h4>Quelle est la capitale des Seychelles ?</h4>
+    
+                <div>
+                    <input type="radio" id="De Quincey" name="q4" value="a" checked>
+                    <label for="De Quincey">De Quincey</label>
+                </div>
+                
+                <div>
+                    <input type="radio" id="Cascade" name="q4" value="b">
+                    <label for="Victoria">Victoria</label>
+                </div>
+                
+                <div>
+                    <input type="radio" id="Cascade" name="q4" value="c">
+                    <label for="Cascade">Cascade</label>
+                </div>
+            </div>
+    
+    
+            <div class="question-block">
+                <h4>Dans quelle boisson trouve-t-on de la quinine ?</h4>
+                <div>
+                    <input type="radio" id="The" name="q5" value="a"
+                        checked>
+                    <label for="The">Le thé</label>
+                </div>
+                
+                <div>
+                    <input type="radio" id="Cafe" name="q5" value="b">
+                    <label for="cafe">Le café</label>
+                </div>
+                
+                <div>
+                    <input type="radio" id="Tonic" name="q5" value="c">
+                    <label for="Tonic">Le Tonic</label>
+                </div>
+            </div>
+            <button type="submit">Validez vos choix ! </button>
+        </form>
+
+        <div class="resultats">
+            <h2>Cliquez sur valider pour voir les résultats</h2>
+            <p class="aide"></p>
+            <p class="note"></p>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
